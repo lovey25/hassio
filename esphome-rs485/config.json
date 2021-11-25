@@ -8,7 +8,7 @@
   "backup_exclude": [
     "*/*/"
   ],
-  "description": "Development version of ESPHome add-on",
+  "description": "RS485 version of ESPHome add-on",
   "hassio_api": true,
   "host_network": true,
   "ingress": true,
@@ -17,7 +17,7 @@
     "ssl:ro",
     "config:rw"
   ],
-  "name": "ESPHome (dev)",
+  "name": "ESPHome (rs485)",
   "panel_icon": "mdi:chip",
   "ports": {
     "6052/tcp": null
@@ -35,7 +35,7 @@
     "status_use_ping": "bool?",
     "streamer_mode": "bool?"
   },
-  "slug": "esphome-dev",
+  "slug": "esphome-rs485",
   "stage": "experimental",
   "uart": true,
   "url": "https://next.esphome.io/",
