@@ -18,6 +18,9 @@
     "config:rw"
   ],
   "name": "ESPHome (rs485)",
+  "options": {
+    "esphome_version": "greays:master"
+  },
   "panel_icon": "mdi:chip",
   "ports": {
     "6052/tcp": null
@@ -27,6 +30,7 @@
   },
   "schema": {
     "certfile": "str?",
+    "esphome_version": "str?",
     "esphome_fork": "str?",
     "keyfile": "str?",
     "leave_front_door_open": "bool?",
@@ -39,5 +43,5 @@
   "stage": "experimental",
   "uart": true,
   "url": "https://next.esphome.io/",
-  "version": "dev"
+  "version": "dev??"
 }
