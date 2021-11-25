@@ -8,7 +8,7 @@
   "backup_exclude": [
     "*/*/"
   ],
-  "description": "RS485 version of ESPHome add-on",
+  "description": "RS485 version of ESPHome add-on (테스트용임)",
   "hassio_api": true,
   "host_network": true,
   "ingress": true,
@@ -19,7 +19,7 @@
   ],
   "name": "ESPHome (rs485)",
   "options": {
-    "esphome_version": "greays:master"
+    "esphome_version": "coalcooker:master"
   },
   "panel_icon": "mdi:chip",
   "ports": {
@@ -43,5 +43,5 @@
   "stage": "experimental",
   "uart": true,
   "url": "https://next.esphome.io/",
-  "version": "dev??"
+  "version": "2011.11.25"
 }
